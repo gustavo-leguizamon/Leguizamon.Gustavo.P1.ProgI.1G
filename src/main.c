@@ -41,6 +41,7 @@ int reemplazarCaracteres(char cadena[], char primerCaracter, char segundoCaracte
 				cadena[index] = segundoCaracter;
 				reemplazos++;
 			}
+			index++;
 		}
 	}
 
